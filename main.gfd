@@ -1,0 +1,1100 @@
+root
+{
+  ~player_name [player_name]
+
+  [sentence1] [sentence2] [sentence3]
+}
+
+sentence1
+{
+  The game is [a_game_type] [set_in_or_with_a].
+  The game is [a_game_type].
+  This game is [a_game_type].
+}
+
+sentence2
+{
+  [player_is] [a_or_an_player_attribute] [occupation].
+  [player_is] [a_or_an_player_attribute] [occupation] named $player_name.
+  $player_name, [a_or_an_player_attribute] [occupation], is the main character.
+  The player controls the adventures of [a_or_an_player_attribute] [occupation] and [a_or_an_player_attribute] [occupation].
+  The story follows the romance of [a_or_an_player_attribute] [occupation] and [a_or_an_player_attribute] [occupation].
+  The story centers on the conflict between you, [a_or_an_player_attribute] [occupation], and [a_or_an_player_attribute] [occupation].
+  The game follows the adventures of [a_or_an_player_attribute] [occupation], [a_or_an_player_attribute] [occupation], and [a_or_an_player_attribute] [occupation].
+}
+
+sentence3
+{
+  The purpose of the game is to [purpose].
+  The purpose of this game is to [purpose].
+  The player attempts to [purpose].
+  $player_name attempts to [purpose].
+  The player tries to [purpose].
+  $player_name tries to [purpose].
+  In the game the player must not [purpose].
+  The [character_role] attempts to [purpose].
+  The [character_role] tries to [purpose].
+  The purpose of the game is to [purpose] without being harmed by the [noun].
+  The purpose of the game is to [purpose] but not let the [occupation] [purpose].
+  The purpose of the game is to [purpose] without letting the [occupation] [purpose].
+  The purpose of the game is to [purpose] and convince the [occupation] to [purpose].
+  In the game, you must use your [noun] to [purpose].
+  In the game, you must wield your [noun] in order to [purpose].
+  In the game, you may either [purpose] or [purpose].
+  To win the game you must either [purpose] or [purpose].
+# The purpose of the game is to [purpose] without/before
+}
+
+a_game_type
+{
+  a real-time strategy game
+  a puzzle game
+  an edutainment game
+  a first-person shooter
+  a third-person RPG
+  an action game
+  an adventure game
+  an arcade game
+  a role-playing game
+  a 2D sidescroller
+  a survival/horror game
+  a fighting game
+  a war simulation
+  a minigame
+  a hunting game
+  a text adventure
+  an insane J-game
+  a life-simulation game
+  a dating game
+  a MUD game
+  an MMORPG
+  an extreme sports game
+  a budget game
+  a bargain bin game
+  a AAA title
+  a flash game
+# Repeats for increased possibility of selection
+  a real-time strategy game
+  a first-person shooter
+  an action/adventure game
+  a role-playing game
+  a survival/horror game
+  a fighting game
+#  driving game
+}
+
+
+set_in_or_with_a
+{
+  set in [setting]
+  designed around [setting]
+  with an emphasis on [game_aspect]
+  emphasizing [game_aspect]
+  with [a_or_an_art_style] art-style
+  with [a_or_an_art_style] style
+}
+
+a_or_an_art_style
+{
+  a film noir
+  an art deco
+  an Impressionistic
+  a modern
+  a Post-Modern
+  a cel-shaded
+  a Surrealistic
+  a gritty
+  a Cubist
+  a Pop Art
+  a realistic
+  an ASCII art
+  a hyper-realistic
+}
+
+game_aspect
+{
+  [game_aspect] and [game_aspect]
+  annoying jumping puzzles
+  compelling character personalities
+  furious battles
+  character development
+  bloodshed
+# clash with edutainment genre
+  education
+  stealth
+  disturbing imagery
+  sex-appeal
+  micromanagement
+  the paranormal
+  covert operations
+  intergalactic travel
+  hulking mecha
+  sorcery
+  gratuitous violence
+  political propaganda
+  time-travel
+  unpredictable plot twists
+  teen-angst
+  feel-good messages
+  comedy
+  dungeon-crawling
+  celebrity voice-overs
+}
+
+setting
+{
+  [the_setting]
+  [the_setting]
+  [location]
+  modern [location]
+  1970's [location]
+  1950's [location]
+  futuristic [location]
+  post-apocalyptic [location]
+  feudal [location]
+  medieval [location]
+  urban [location]
+  suburban [location]
+  [location] during the Industrial Revolution
+}
+
+
+location
+{
+  Japan
+  Europe
+  deep space
+  East Texas
+  Los Angeles
+  New York
+  Richardson, Texas
+  Omaha, Nebraska
+  Egypt
+  Lichtenstein
+  Somalia
+  French Indo-China-Burma
+  Easter Island
+  San Francisco
+  Trinidad
+  South Africa
+  Argentina
+  Bangkok
+  Knuttin Atoll
+  Cleveland
+  Abu Dabi
+  Timbuktu
+  Constantinople
+  Czechoslovakia
+  China
+  Russia
+  Alaska
+  Alabama
+  Canada
+  The Bahamas
+  Washington, DC
+  Ukraine
+  Germany
+  France
+  Paris
+}
+
+
+the_setting
+{
+#  the moon
+  the dark ages
+  the old west
+  the corporate world of today
+  the lost city of Atlantis
+  the underground lair of the [occupation]
+  the seventh circle of hell
+  the ninth layer of Hades
+  the ethereal plane
+  a bathroom
+  Best Buy
+  KFC
+  Taco Bell
+  Kinkos
+  an inn in [location]
+  a castle in [location]
+  Jupiter
+  a mechanical floating castle
+  cyberpunk [location]
+}
+
+player_is
+{
+  You play as
+  The player is
+  You star as
+  The lead character is
+}
+
+
+a_or_an_player_attribute
+{
+  [a_player_attribute]
+  [a_player_attribute]
+  [a_player_attribute]
+  [an_player_attribute]
+}
+
+
+a_player_attribute
+{
+  a battle-hardened
+  a hippopotomonstrosesquippedaliophobic
+  a brilliant
+  a sexually-frustrated
+  a strikingly-beautiful
+  a crack-addicted
+  a gay
+  a homophobic
+  a sexy
+  a blind
+# potential conflict with a robot noun
+  a robotic
+  a pious
+  a rambunctious
+  a redneck
+  a brain-washed
+  a clumsy
+  a lucky
+  a babbling
+  a paranoid
+  a hideously-ugly
+  a handicapped
+  a mildly-retarded
+  a mild-mannered
+  a nudist
+  a brave
+  a stingy
+  a pompous
+  a well-endowed
+  a criminal
+  a young
+  a muffin-eating
+  a middle-aged
+  a [small_number] fingered
+  a strikingly-average
+  a lying
+# conflict with ninja noun
+  a ninja
+  a disgruntled
+  a neurotic
+  a southpaw
+  a hermaphrodite
+  a two-bit
+  a star-struck
+  a narcissistic
+  a lonely
+  a hell-bent
+  a hell-bound
+  a lisping
+  a flamboyant
+  a pessimistic
+  a drunkard
+  a jealous
+  a racist
+  a sexist
+  a fearless
+  a sadistic
+  a masochistic
+  a vegetarian
+  a goat-riding
+  a limber
+  a fighting
+  a hypocritical
+  a precocious
+  a free-wheeling
+  a psychic
+  a hippie
+  a rogue
+  a [color] haired
+  a proselytizing
+  a headless
+  a blood-sucking
+  a cannibal
+  a famous
+  a wealthy
+  a sword-wielding
+  a giant
+  a midget
+  a dimwitted
+  a confident
+  a miniature
+  a puny
+  a tall
+  a short
+  a chubby
+  a skinny
+  a brainy
+  a crazy
+  a shy
+  a wandering
+  a flighty
+  a filthy
+  a foolhardy
+  a beautiful
+  a blonde
+  a cute
+  a grotesque
+  a cuddly
+  a graceful
+  a sinister
+  a weird
+  a petite
+  a mysterious
+  a chaste
+  a beer-guzzling
+  a frumpy
+  a decrepit
+  a cruel
+  a disturbed
+  a slutty
+  a trashy
+  a dirty
+  a sleazy
+}
+
+
+an_player_attribute
+{
+  an inquisitive
+  an adorable
+  an alert
+  an average
+  an infamous
+  an undead
+  an intelligent
+  an alien
+  an arrogant
+  an aging
+  an old
+  an ex-convict
+  an evil
+  an unemployed
+  an oblivious
+  an aggressive
+  an honest
+  an overweight
+  an optimistic
+  an ambivalent
+  an asexual
+  an ambidextrous
+  an agnostic
+  an adulterous
+  an undercover
+  an angry
+}
+
+
+occupation
+{
+  philosopher
+  scientist
+  truck driver
+  superhero
+  ninja
+  assassin
+  business person
+  software engineer
+  beta-tester
+  stripper
+  janitor
+  dog
+  fish
+  baby
+  barbarian
+  small mimic
+  professional golfer
+  rock star
+  pop star
+  cop
+  dancer
+  artist
+  blacksmith
+  archaeologist
+  mathematician
+  tourist
+  hair-stylist
+  house-wife
+  bodyguard
+  insurance agent
+  zen master
+  hooker
+  tycoon
+  savage
+  parasite
+  postal worker
+  junkie
+  Canadian
+  psychologist
+  game developer
+  presidential hopeful
+  vampire
+  witchdoctor
+  serial killer
+  dental hygienist
+  health nut
+  teacher
+  lawyer
+  hobgoblin
+  spammer
+  cubicle monkey
+  nurse
+  seamstress
+  farmer
+  gangster
+  pimp
+  hitman
+  [color] knight
+  knight
+  dinosaur
+  newspaper editor
+  Neanderthal
+  electrician
+  l33t hax0r
+  hermit
+  surfer dude
+  hobbit
+  gumshoe
+  gunslinger
+  sorcerer
+#  n00b
+  corporate whore
+  prostitute
+  monarch
+  priest
+  nuclear technician
+  fashion model
+  dingo-tamer
+  proctologist
+  comedian
+  samurai
+  DM
+  balor
+  angel
+  demon
+  adventurer
+  football player
+  pro-wrestler
+  adult film star
+  game show host
+  call girl
+  prophet
+  anime addict
+  nerd
+  geek
+  cartographer
+  blimp pilot
+  teeny bopper
+  Subway sandwich artist
+  taste tester
+  whale rider
+  virgin
+  deity
+  executive assistant
+  trapeze artist
+  disc jockey
+  ballerina
+  Jew
+  Atheist
+  soccer mom
+  Nazi
+  wood nymph
+  dominatrix
+  plastic surgeon
+  nun
+  revolutionary
+  trekkie
+  pervert
+  badass
+  [noun] maker
+  photographer
+  stone golem
+  raver
+  imp
+  Wal*Mart greeter
+  CFO
+  CEO
+  nurse practitioner
+  roadie
+  groupie
+  cage dancer
+  Playboy bunny
+  contortionist
+  physicist
+  panhandler
+  philanthropist
+  president
+  occupational hypnotherapist
+  personal trainer
+  plastic surgeon
+  plumber
+  bus driver
+  cabbie
+  criminalist
+  FBI agent
+  spy
+  camp counselor
+  princess
+  anthropologist
+  janitor
+  MIT research assistant
+}
+
+
+player_name
+{
+  "The Harpoon"
+  "The Hawk"
+  "The Smurf"
+  "Thrasher"
+  "Twinkle Toes"
+  Adam
+  Agent X
+  Aido
+  Alan Greenspan
+  Alice
+  Anna
+  Ara Silversbane
+  Aristotle
+  Ayane
+  Boy Wonder
+  Britney
+  Brunhilda
+  Bubba
+  Buffy
+  Candi
+  Captain Carnage
+  Chastity
+  Chicken Legs
+  Corky
+  Danny Lorenzo
+  Darren
+  Dirk Diggler
+  Dorma
+  Eric S. Raymond
+  Ethel
+  Ezekial
+  Franklin Furrh
+  Gandalf
+  Gertrude
+  Gonad the Barbarian
+  Grendel
+  Groucho
+  Gwen
+  Hans Schnielfenheiger
+  Harpo
+  Homer
+  Jacque DeVille
+  James Bond
+  Jason
+  Jesus
+  Joe
+  John Wilson
+  Katie
+  Kenichi
+  Kyle
+  Lance
+  Larry
+  Limbo
+  Linus
+  Mario
+  Mike Thunder
+  Nijiyaki
+  Oswaldo Mondaine
+  Pacman
+  Phoebe
+  Rachelle
+  Raggamuffin
+  Ralph
+  Red XIII
+  Renaldo Calaycay
+  Richard
+  Richard Rouse
+  Shifty-I
+  Shorty
+  Steve
+  Stewey
+  Tim
+  Tina
+  Titus Brador
+  Tomer
+  Unit 2486
+  Von Galleno
+  Wanda
+  Whiteboy
+  Zelda
+  Zeus
+}
+
+character_role
+{
+  player
+  protagonist
+  antagonist
+  bad guy
+  sidekick
+  hero
+  heroine
+  villain
+  the lead character
+  evil stepmother
+  knight in shining armor
+}
+
+purpose
+{
+# eat [how_much] [noun]
+  kill [how_much] [occupation]
+  slay the [occupation]
+  rescue [how_much] [occupation]
+  rescue [a_or_an_player_attribute] [occupation] named [player_name]
+  save [how_much] [occupation] from [a_or_an_player_attribute] [occupation]
+  collect [how_much] [noun]
+  destroy [how_much] [noun]
+  find [how_much] [noun]
+  aide [how_much] [occupation] in the effort to [purpose]
+  help the [occupation] [purpose]
+  assist [how_much] [occupation] and [purpose]
+  invade [location]
+  defend [location]
+  defend [location] from [a_or_an_player_attribute] [occupation]
+  reach [location]
+  seduce [how_much] [occupation]
+  bring [how_much] [noun] to [player_name] the [occupation]
+  bring [how_much] [noun] to [location]
+  take [how_much] [occupation] to [location]
+  escape from [location]
+  capture [how_much] [occupation]
+  free [how_much] [occupation]
+# not [purpose] # cool idea, doesn't quite work
+}
+
+color
+{
+  [color] and [color]
+  [color] and [color] plaid
+  [color] with [color] polkadots
+  [color] with [color] stripes
+  beige
+  black
+  blue
+  blue-green
+  bright [color]
+  brown
+  burgundy
+  chartreuse
+  cyan
+  ebony
+  faded [color]
+  forest green
+  fuchsia
+  gold
+  gray
+  green
+  grey
+  indigo
+  ivory
+  jet black
+  lavender
+  lime green
+  magenta
+  metallic [color]
+  navy blue
+  neon [color]
+  orange
+  peach
+  periwinkle
+  pink
+  puce
+  purple
+  red
+  silver
+  tan
+  taupe
+  teal
+  violet
+  white
+  yellow
+}
+
+how_much
+{
+  one
+  a(n)
+  the
+  every
+  a single
+  many-a(n)
+# kill many a foe
+}
+
+
+noun
+{
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  [size] [noun]
+  priceless [noun]
+  secret [noun]
+  hidden [noun]
+  invisible [noun]
+  unbreakable [noun]
+  blessed [noun]
+  cursed [noun]
+  rustproof [noun]
+  forbidden [noun]
+  magic [noun]
+  ancient [noun]
+  brand new [noun]
+  evil [noun]
+  holy [noun]
+  legendary [noun]
+  flying [noun]
+  flaming [noun]
+  radioactive [noun]
+  heat-seeking [noun]
+  elvish [noun]
+  dwarven [noun]
+  tainted [noun]
+  unique [noun]
+  +1 [noun]
+  +2 [noun]
+  -1 [noun]
+  -2 [noun]
+
+  machina
+  rock
+  cake
+  silver spoon
+  spork
+  car
+  mousetrap
+  cloud
+  ninja star
+  '57 Chevy
+  army of ants
+  corkscrew
+  [color] frisbee
+  piece of bubble wrap
+  large stick
+  rusty pot
+  tire swing
+  text book
+# pine cone
+  rubber chicken
+  vibrator
+  porn dvd
+  can of soylent green
+  shadow diamond
+  banana
+  lawn mower
+  gold coin
+  artifact
+  BFG9000
+  fire hydrant
+  CPU
+  spleen
+  mainframe
+  airship
+  [color] dragon scale mail armor suit
+  Amulet of Yendor
+  loadstone
+  amulet of strangulation
+  NOS kit
+  jet-pack
+  grappling hook
+  blaster rifle
+  water bong
+  scalpel
+  mana sword
+  Linux distribution
+  whirling blade of death
+  computer virus
+  anal probe
+  lockpick
+  broadsword
+  divining rod
+  bag of holding
+  joystick
+  cow
+  penguin
+  car bomb
+  ramen pack
+  android
+  keg o' health
+  breast implant
+  cream-filled donut
+  pimp stick
+  1up mushroom
+  [color] potion
+  evil eye
+  eight-ball
+  [color] gem
+  pickaxe
+  [color] [weapon]
+  [weapon]
+  [weapon]
+  [weapon]
+  kumquat
+  chastity belt
+  crystal ball
+  Waterview parking sticker
+  [color] parking sticker
+  temporary tattoo
+  box
+  cake
+  cellphone
+  push-pin
+  mirror
+  ocarina
+  whistle
+  bottle
+  spaceship
+  computer
+  operating system
+  fern
+  soda
+  string of christmas lights
+  toenail
+  camera
+  iPod
+}
+
+weapon
+{
+  [size] [weapon]
+  [old_weapon]
+  [modern_weapon]
+  [old_weapon]
+  [modern_weapon]
+  [old_weapon]
+  [modern_weapon]
+  [old_weapon]
+  [modern_weapon]
+  [old_weapon]
+  [modern_weapon]
+}
+
+old_weapon
+{
+  axe
+  blowgun
+  bo
+  bow
+  dart
+  halberd
+  javelin
+  lance
+  nunchaku
+  sai
+  shuriken
+  shortspear
+  spear
+  staff
+  sword
+  quarterstaff
+  whip
+  sling
+  crossbow
+  club
+  battleaxe
+  dagger
+  morningstar
+  mace
+  scimitar
+  trident
+  warhammer
+  flail
+  spiked chain
+  rapier
+}
+
+modern_weapon
+{
+  gun
+  uzi
+  flamethrower
+  spread gun
+  machine gun
+  shotgun
+  buster gun
+  plasma gun
+  nuke
+  molotov cocktail
+  crowbar
+  suitcase bomb
+  icepick
+  musket
+  rocket launcher
+}
+
+event
+{
+  raindance
+}
+
+size
+{
+  miniscule
+  tiny
+  petite
+  little
+  small
+  undersized
+  average-sized
+  normal-sized
+  large
+  ample-sized
+  big
+  huge
+  massive
+  giant
+  gigantic
+  colossal
+  enormous
+  gargantuan
+}
+
+# need to clean this up, but it could be cool
+feeling
+{
+  afraid
+  angry
+  annoyed
+  anxious
+  arrogant
+  ashamed
+  awful
+  bad
+  bewildered
+  bored
+  combative
+  condemned
+  confused
+  creepy
+  cruel
+  dangerous
+  defeated
+  defiant
+  depressed
+  disgusted
+  disturbed
+  eerie
+  embarrassed
+  envious
+  evil
+  fierce
+  foolish
+  frantic
+  frightened
+  grieving
+  helpless
+  homeless
+  hungry
+  hurt
+  ill
+  jealous
+  lonely
+  mysterious
+  naughty
+  nervous
+  obnoxious
+  outrageous
+  panicky
+  repulsive
+  scary
+  scornful
+  selfish
+  sore
+  tense
+  terrible
+  thoughtless
+  tired
+  troubled
+  upset
+  uptight
+  weary
+  wicked
+  worried
+  agreeable
+  amused
+  brave
+  calm
+  charming
+  cheerful
+  comfortable
+  cooperative
+  courageous
+  delightful
+  determined
+  eager
+  elated
+  enchanting
+  encouraging
+  energetic
+  enthusiastic
+  excited
+  exuberant
+  fair
+  faithful
+  fantastic
+  fine
+  friendly
+  funny
+  gentle
+  glorious
+  good
+  happy
+  healthy
+  helpful
+  hilarious
+  jolly
+  joyous
+  kind
+  lively
+  lovely
+  lucky
+  obedient
+  perfect
+  pleasant
+  proud
+  relieved
+  silly
+  smiling
+  splendid
+  successful
+  thoughtful
+  victorious
+  vivacious
+  witty
+  wonderful
+  zealous
+  zany
+}
+
+small_number
+{
+  one
+  two
+  three
+  four
+  five
+  six
+  seven
+  eight
+  nine
+  ten
+  eleven
+  twelve
+  thirteen
+}
