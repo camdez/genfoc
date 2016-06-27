@@ -32,7 +32,7 @@ void expression::add_vars_to_stack(std::list<variable>& vstack)
 
   variable* new_var;
 
-  for (std::map<string, string>::iterator var_iter = variables.begin(); 
+  for (std::map<string, string>::iterator var_iter = variables.begin();
        var_iter != variables.end(); var_iter++)
     {
       new_var = new variable;
@@ -41,7 +41,7 @@ void expression::add_vars_to_stack(std::list<variable>& vstack)
       new_var->resolved = false;
 
       vstack.push_back(*new_var);
-    }  
+    }
 }
 
 void expression::setId(string newId)
@@ -65,7 +65,7 @@ string expression::getValue()
 
   int i = 0;
 
-  for (std::list<string>::iterator sub_iter = sub_expressions.begin(); 
+  for (std::list<string>::iterator sub_iter = sub_expressions.begin();
        sub_iter != sub_expressions.end(); sub_iter++)
     {
       if (i == number)
@@ -73,6 +73,6 @@ string expression::getValue()
 
       i++;
     }
-  
+
   assert(false); // should NEVER get here
 }

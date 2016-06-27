@@ -43,7 +43,7 @@ void dump_stack()
        stack_iter != var_stack.end(); stack_iter++)
     {
       std::cout << stack_iter->key << "=>" << stack_iter->value << ", ";
-    }  
+    }
 
   std::cerr << "\n";
 }
@@ -54,7 +54,7 @@ void parseData()
 {
   char buffer[1024];
   bool in_def = false;          // Are we inside of a definition statement
-  bool open_bracket = false;    // Is there a currently open brace? 
+  bool open_bracket = false;    // Is there a currently open brace?
   expression* exp;
 
   while(true)
@@ -63,7 +63,7 @@ void parseData()
       while(true)
         {
           char a = std::cin.peek();
-          
+
           if ((a == ' ' || a == '\t'))
             std::cin.get();
           else
@@ -106,7 +106,7 @@ void parseData()
             {
               if (!open_bracket)
                 assert(false); // Parse error
- 
+
               in_def = false;
               open_bracket = false;
               glb_exp_list.push_back(exp);
@@ -128,7 +128,7 @@ void parseData()
                     space_location++;
                 }
 
-              
+
               // Make sure the first character after the ~ was not a space
               assert(space_location > 1);
 
@@ -167,7 +167,7 @@ string evaluateString(string ex_str)
       int end = buffer.size() - 1;
 
       // Allow punctuation at the end of tags and variables
-      if ((buffer[end] == '.') || (buffer[end] == ',') 
+      if ((buffer[end] == '.') || (buffer[end] == ',')
           || (buffer[end] == '!') || (buffer[end] == '?'))
         end--;
 
@@ -196,7 +196,7 @@ string evaluateString(string ex_str)
                   // Take variables off the stack
                   for (int s = 0; s < (*exp_iter)->get_var_count(); s++)
                     var_stack.pop_back();
-                  
+
                   if (end != (buffer.size() - 1))
                     output += buffer[buffer.size()-1];
 
@@ -244,7 +244,7 @@ string lookupVariable(string key)
 {
   string value;
 
-  for (std::list<variable>::reverse_iterator stack_iter = var_stack.rbegin(); 
+  for (std::list<variable>::reverse_iterator stack_iter = var_stack.rbegin();
        stack_iter != var_stack.rend(); stack_iter++)
     {
       if (stack_iter->key == key)
